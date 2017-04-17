@@ -18,6 +18,25 @@ public class linkedList{
     return head == null;
   }
   
+  //method addNumber() add a node to the end of list
+  public viod addNumber(Node node){
+    Node newNode = new Node(node.getNumber()); 
+    if(isEmpty() == true){      //  if list is empty then add the node to head 
+      head = newNode;
+    }
+    else{                       
+      Node list = head;
+      while(list.getNext()! = null){   // loop add node
+        list = list.getNext;
+      }
+      list.setNext(newNode);
+    }
+    size++;
+  }
 
-
+  
+  
+  
+  
+  
 }
