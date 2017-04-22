@@ -45,6 +45,20 @@ public class linkedList{
       addNumber(new Node(n));
     }
    }
+  // method bubbleSort
+    public void bubbleSort(){
+    for(int i=0;i< size;i++){
+      Node currentNode = head;
+      Node nextNode = head.getNext();
+      for(int j=0;j<size-1;j++){
+        if(currentNode.getNumber() > nextNode.getNumber()){
+          swap(currentNode,nextNode);
+        }
+        currentNode = nextNode;
+        nextNode = nextNode.getNext();
+      }
+    }
+  }
   
   
   
