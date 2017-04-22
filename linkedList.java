@@ -65,8 +65,20 @@ public class linkedList{
       }
     }
   }
-  
-  
+  //method print
+        public void print(){
+      Node list = head;
+      while(list != null){
+          System.out.println(list.getNumber() + " ");
+            
+          list = list.getNext();
+          
+      }
+     
+      
+        
+        
+    }
   
   
   
