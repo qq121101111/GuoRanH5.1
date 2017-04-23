@@ -1,7 +1,7 @@
 public class Main{
 
     public static void main(String[] args) { 
-    LinkedList list1 = new LinkedList();
+    linkedList list1 = new linkedList();
     
     list1.populateList(10);
     
