@@ -1,3 +1,7 @@
+/*Name Ran Guo
+ * class ICSI 213 
+ * assignment H5
+ */
 import java.util.Random;
 
 public class linkedList{
